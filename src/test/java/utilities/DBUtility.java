@@ -16,7 +16,7 @@ public class DBUtility {
         switch (Config.getProperty("dbType")) {
 
             case "oracle":
-                connection = DriverManager.getConnection(Config.getProperty("oracleURL"), Config.getProperty("oracleUsername"), Config.getProperty("oraclePassword"));
+                connection = DriverManager.getConnection(Config.getProperty("dbUrl"), Config.getProperty("dbUsername"), Config.getProperty("dbPassword"));
 
                 break;
             case "mysql":
