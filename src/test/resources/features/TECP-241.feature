@@ -1,8 +1,7 @@
-@TECP-248
-Feature:
+Feature: Adding new Student with informa
 
 
-  @TECP-241 @TECP-246
+  @TECP-241
   Scenario Outline: Filling up Student information
     Given User on the "ADD STUDENT" page
     And user types "<Firstname>" in the firstname input box
