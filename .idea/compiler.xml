@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TechProPreSchooll" />
         <module name="TechProPreSchool" />
+        <module name="CybertekTraining-TechPro" />
+        <module name="TechProPreSchooll" />
       </profile>
     </annotationProcessing>
   </component>
