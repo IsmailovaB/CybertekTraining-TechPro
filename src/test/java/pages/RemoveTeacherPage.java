@@ -13,7 +13,6 @@ public class RemoveTeacherPage {
     public RemoveTeacherPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
     @FindBy(xpath = "(//div[@class='profile-img']//a)[1]")
     public WebElement teacher;
 

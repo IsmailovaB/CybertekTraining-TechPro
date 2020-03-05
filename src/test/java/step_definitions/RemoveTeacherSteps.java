@@ -153,6 +153,7 @@ public class RemoveTeacherSteps {
 //        }
 
        // Assert.assertFalse(check!=true);
+
         Assert.assertEquals("Teacher still in DB",check, true);
 
 
