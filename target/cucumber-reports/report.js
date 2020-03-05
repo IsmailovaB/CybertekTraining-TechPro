@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/TECP-241.feature");
 formatter.feature({
   "name": "Adding new Student with informa",
@@ -308,51 +309,108 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_mobile_number_input_box(String)"
+=======
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/deleteStudent.feature");
+formatter.feature({
+  "name": "Verification UI and Data Base for deleted student",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Deleted Student Verification",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TECP-231"
+    }
+  ]
+});
+formatter.step({
+  "name": "User should go url user should be navigate the page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_should_go_url_user_should_be_navigate_the_page()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Master\" in the major input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_major_input_box(String)"
+=======
+  "name": "User clicks student section",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_clicks_student_section()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Cebertek2\" in the company name input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_company_name_input_box(String)"
+=======
+  "name": "User clicks All student section",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_clicks_All_student_section()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user choose \"12/04/2020\" from calendar",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_choose_from_calendar(String)"
+=======
+  "name": "User clicks to student entry that was checked before from database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_clicks_to_student_entry_that_was_checked_before_from_database()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"2700 S River\" in the street name input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_street_name_input_box(String)"
+=======
+  "name": "User checks if the student stored in data base or not",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_checks_if_the_student_stored_in_data_base_or_not()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"IL\" in the state input box",
   "keyword": "And "
 });
@@ -368,21 +426,37 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_title_input_box(String)"
+=======
+  "name": "User navigate.back",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_navigate_back()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Des Plaines\" in the city input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_city_input_box(String)"
+=======
+  "name": "User deletes the student",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.user_deletes_the_student()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"60656\" in the zipcode input box",
   "keyword": "And "
 });
@@ -428,6 +502,13 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_gets_the_student_and_compares_with_database(String,String,String)"
+=======
+  "name": "The information should be deleted from data",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Delete_Student_Step_Defs.the_information_should_be_deleted_from_data()"
+>>>>>>> ee7e43759715cb13b47e4eef406ae7d7811f9488
 });
 formatter.result({
   "status": "passed"
