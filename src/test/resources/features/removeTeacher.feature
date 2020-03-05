@@ -11,6 +11,7 @@ Feature:
 		And User clicks on All Teacher option
 		And User clicks on one teacher
 		And User takes teacher id
+          And User check teacher is stored in the DB
 		And User go back to the teacher page 
 		And User clickes on three dot
 		When User clicks on delete teacher button
