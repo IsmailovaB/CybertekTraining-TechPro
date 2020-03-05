@@ -157,8 +157,11 @@ public class TECP241_steps {
     public void user_searches_the_name_of_the_created(String firstName) {
        addStudentPage.studentNameSearchBox.sendKeys(firstName);
        addStudentPage.searchButton.click();
-       Driver.getDriver().findElement(By.xpath("//a[.='"+firstName+"']")).click();
-       TempStorage.addData("id", addStudentPage.studentId.getText());
+       WebElement actualres = Driver.getDriver().findElement(By.xpath("//a[.='"+firstName+"']"));
+       Assert.assertTrue(actualres.getText().equals(firstName));
+        actualres.click();
+        TempStorage.addData("id", addStudentPage.studentId.getText());
+
     }
 
     @Then("user gets the student {string}, {string}, {string} and compares with database")
