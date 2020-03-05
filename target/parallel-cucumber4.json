@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verification of deleted teacher ZH",
+        "description": "",
+        "id": ";verification-of-deleted-teacher-zh",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@TECP-249"
+          },
+          {
+            "name": "@TECP-238"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "As a User I should able to delete teacher.",
+        "description": "",
+        "id": ";as-a-user-i-should-able-to-delete-teacher.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4243037458,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page",
+            "match": {
+              "location": "RemoveTeacherSteps.user_is_on_Dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301921492,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Teacher module",
+            "match": {
+              "location": "RemoveTeacherSteps.user_clicks_on_Teacher_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2329463945,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on All Teacher option",
+            "match": {
+              "location": "RemoveTeacherSteps.user_clicks_on_All_Teacher_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2249937366,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on one teacher",
+            "match": {
+              "location": "RemoveTeacherSteps.user_clicks_on_one_teacher()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028596447,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User takes teacher id",
+            "match": {
+              "location": "RemoveTeacherSteps.user_takes_teacher_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 872790449,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User check teacher is stored in the DB",
+            "match": {
+              "location": "RemoveTeacherSteps.user_check_teacher_is_stored_in_the_DB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127861505,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User go back to the teacher page",
+            "match": {
+              "location": "RemoveTeacherSteps.user_go_back_to_the_teacher_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074560122,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clickes on three dot",
+            "match": {
+              "location": "RemoveTeacherSteps.user_clickes_on_three_dot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2073533701,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on delete teacher button",
+            "match": {
+              "location": "RemoveTeacherSteps.user_clicks_on_delete_teacher_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34074286,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see delete verification pop up",
+            "match": {
+              "location": "RemoveTeacherSteps.user_should_see_delete_verification_pop_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2482619850,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Click on delete pop up",
+            "match": {
+              "location": "RemoveTeacherSteps.user_Click_on_delete_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 641386746,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "teacher should be able to  deleted",
+            "match": {
+              "location": "RemoveTeacherSteps.teacher_should_be_able_to_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TECP-249"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/removeTeacher.feature",
+    "tags": [
+      {
+        "name": "@TECP-249",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
