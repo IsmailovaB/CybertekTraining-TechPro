@@ -30,6 +30,28 @@ public class PreschoolMainPage {
     @FindBy(xpath = "//a[@href='add-student.html']")
     public WebElement addStudentButton;
 
+    @FindBy(xpath = "//div[@class='row staff-grid-row']//div//div//div[2]")
+    public WebElement studentEditDots;
+
+    @FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a")
+    public WebElement studentEdit;
+
+    @FindBy(xpath = "(//div[@class='profile-widget'])//div//a")
+    public WebElement firstStudent;
+
+    @FindBy(xpath = "//span[.='Student ID:']/following-sibling::span")
+    public WebElement studentID;
+
+    @FindBy(xpath = "//*[.='Student ID']/preceding-sibling::input")
+    public WebElement searchID;
+
+    @FindBy(xpath = "//*[.=' Search ' and @class='btn btn-success btn-block mt-4 mb-2']")
+    public WebElement searchButton;
+
+    @FindBy(xpath = "//h3[@class='user-name m-t-0']")
+    public WebElement studentFullName;
+
+
 
 
 
