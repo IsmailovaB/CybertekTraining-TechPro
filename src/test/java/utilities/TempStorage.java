@@ -11,11 +11,12 @@ public class TempStorage {
         public static void addData(String key,String value){
             data.put(key, value);
         }
-        public static String   getData(String key){
+        public static String getData(String key){
             return data.get(key);
         }
         public static void TempStorageclear(){
             data.clear();
         }
+
     }
 
