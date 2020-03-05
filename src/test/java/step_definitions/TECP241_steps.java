@@ -161,7 +161,6 @@ public class TECP241_steps {
     @Then("user gets the student id and compares with database")
     public void user_gets_the_student_id_and_compares_with_database() throws SQLException {
 
-
         DBUtility.createConnection();
         List<Map<Object, Object >> mydata = DBUtility.executeQuery("select * from student");
         DBUtility.close();
