@@ -111,7 +111,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "user gets the student id and compares with database",
+  "name": "user gets the student \"\u003cFirstname\u003e\", \"\u003cLastname\u003e\", \"\u003cMajor\u003e\" and compares with database",
   "keyword": "Then "
 });
 formatter.examples({
@@ -145,26 +145,26 @@ formatter.examples({
     },
     {
       "cells": [
-        "Seda",
-        "abc@gmail.com",
-        "12345",
-        "SQL",
-        "Female",
-        "05/15/1995",
-        "2",
-        "123 Main st.",
-        "Demir",
-        "12/02/2020",
-        "12345",
-        "7772227272",
+        "Marmara",
+        "ddd@mail.com",
+        "55555",
+        "Selenium",
+        "Male",
+        "06/01/1991",
+        "11",
+        "232 Cicero ave.",
+        "Kim",
+        "09/01/2020",
+        "55555",
+        "7778889990",
         "Master",
-        "Cybertek",
-        "09/03/2020",
-        "123 Main st.",
+        "Cebertek2",
+        "12/04/2020",
+        "2700 S River",
         "IL",
-        "SDET",
-        "Chicago",
-        "60016"
+        "QA",
+        "Des Plaines",
+        "60656"
       ]
     }
   ]
@@ -179,6 +179,9 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "User on the \"ADD STUDENT\" page",
   "keyword": "Given "
@@ -190,7 +193,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"Seda\" in the firstname input box",
+  "name": "user types \"Marmara\" in the firstname input box",
   "keyword": "And "
 });
 formatter.match({
@@ -200,7 +203,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"abc@gmail.com\" in the email input box",
+  "name": "user types \"ddd@mail.com\" in the email input box",
   "keyword": "And "
 });
 formatter.match({
@@ -210,7 +213,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"12345\" in the password input box",
+  "name": "user types \"55555\" in the password input box",
   "keyword": "And "
 });
 formatter.match({
@@ -220,7 +223,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"SQL\" in the subject input box",
+  "name": "user types \"Selenium\" in the subject input box",
   "keyword": "And "
 });
 formatter.match({
@@ -230,7 +233,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user chooses \"Female\" from the select dropdown",
+  "name": "user chooses \"Male\" from the select dropdown",
   "keyword": "And "
 });
 formatter.match({
@@ -240,7 +243,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user chooses \"05/15/1995\" from the calendar",
+  "name": "user chooses \"06/01/1991\" from the calendar",
   "keyword": "And "
 });
 formatter.match({
@@ -250,7 +253,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"2\" in the batch input box",
+  "name": "user types \"11\" in the batch input box",
   "keyword": "And "
 });
 formatter.match({
@@ -260,7 +263,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"123 Main st.\" in the permanent address input box",
+  "name": "user types \"232 Cicero ave.\" in the permanent address input box",
   "keyword": "And "
 });
 formatter.match({
@@ -270,7 +273,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"Demir\" in the lastname input box",
+  "name": "user types \"Kim\" in the lastname input box",
   "keyword": "And "
 });
 formatter.match({
@@ -280,7 +283,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user chooses \"12/02/2020\" from calendar",
+  "name": "user chooses \"09/01/2020\" from calendar",
   "keyword": "And "
 });
 formatter.match({
@@ -290,7 +293,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"12345\" to confirm the password",
+  "name": "user types \"55555\" to confirm the password",
   "keyword": "And "
 });
 formatter.match({
@@ -300,7 +303,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"7772227272\" in the mobile number input box",
+  "name": "user types \"7778889990\" in the mobile number input box",
   "keyword": "And "
 });
 formatter.match({
@@ -320,7 +323,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"Cybertek\" in the company name input box",
+  "name": "user types \"Cebertek2\" in the company name input box",
   "keyword": "And "
 });
 formatter.match({
@@ -330,7 +333,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user choose \"09/03/2020\" from calendar",
+  "name": "user choose \"12/04/2020\" from calendar",
   "keyword": "And "
 });
 formatter.match({
@@ -340,7 +343,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"123 Main st.\" in the street name input box",
+  "name": "user types \"2700 S River\" in the street name input box",
   "keyword": "And "
 });
 formatter.match({
@@ -360,7 +363,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"SDET\" in the title input box",
+  "name": "user types \"QA\" in the title input box",
   "keyword": "And "
 });
 formatter.match({
@@ -370,7 +373,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"Chicago\" in the city input box",
+  "name": "user types \"Des Plaines\" in the city input box",
   "keyword": "And "
 });
 formatter.match({
@@ -380,7 +383,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user types \"60016\" in the zipcode input box",
+  "name": "user types \"60656\" in the zipcode input box",
   "keyword": "And "
 });
 formatter.match({
@@ -407,27 +410,29 @@ formatter.match({
   "location": "TECP241_steps.user_sees_created_student_on_the_page(String)"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[.\u003d\u0027All Students\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Begimais-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:109c:bd63:1791:1db%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:50855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5118fc41658b8090d0810fda0299a4a8\n*** Element info: {Using\u003dxpath, value\u003d//div[.\u003d\u0027All Students\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy15.getText(Unknown Source)\n\tat step_definitions.TECP241_steps.user_sees_created_student_on_the_page(TECP241_steps.java:149)\n\tat ✽.user sees created student on the \"All Students\" page(src/test/resources/features/TECP-241.feature:28)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user searches the name of the created \"Seda\"",
+  "name": "user searches the name of the created \"Marmara\"",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_searches_the_name_of_the_created(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user gets the student id and compares with database",
+  "name": "user gets the student \"Marmara\", \"Kim\", \"Master\" and compares with database",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TECP241_steps.user_gets_the_student_id_and_compares_with_database()"
+  "location": "TECP241_steps.user_gets_the_student_and_compares_with_database(String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 });

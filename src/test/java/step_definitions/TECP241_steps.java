@@ -3,7 +3,9 @@ package step_definitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import pages.AddStudentPage;
@@ -11,6 +13,7 @@ import pages.PreschoolMainPage;
 import utilities.Config;
 import utilities.DBUtility;
 import utilities.Driver;
+import utilities.TempStorage;
 
 import java.security.Key;
 import java.sql.SQLException;
@@ -31,7 +34,7 @@ public class TECP241_steps {
         mainPage.addStudentButton.click();
         String actualText = addStudentPage.addStudentTextDisplay.getText();
         Assert.assertTrue(actualText.equalsIgnoreCase(addStudentText));
-//        Thread.sleep(2000);
+        Thread.sleep(2000);
     }
 
     @Given("user types {string} in the firstname input box")
@@ -52,8 +55,6 @@ public class TECP241_steps {
     public void user_types_in_the_subject_input_box(String subject) {
         addStudentPage.subjectInput.sendKeys(subject);
     }
-
-
 
     @Given("user chooses {string} from the select dropdown")
     public void user_chooses_from_the_select_dropdown(String gender) {
@@ -150,29 +151,34 @@ public class TECP241_steps {
         Assert.assertTrue(actualText.equalsIgnoreCase(allStudent));
     }
 
-    String studentId = addStudentPage.studentId.getText();
+//    String studentId = addStudentPage.studentId.getText();
 
     @Given("user searches the name of the created {string}")
     public void user_searches_the_name_of_the_created(String firstName) {
        addStudentPage.studentNameSearchBox.sendKeys(firstName);
        addStudentPage.searchButton.click();
+       Driver.getDriver().findElement(By.xpath("//a[.='"+firstName+"']")).click();
+       TempStorage.addData("id", addStudentPage.studentId.getText());
     }
 
-    @Then("user gets the student id and compares with database")
-    public void user_gets_the_student_id_and_compares_with_database() throws SQLException {
-
+    @Then("user gets the student {string}, {string}, {string} and compares with database")
+    public void user_gets_the_student_and_compares_with_database(String firstname, String lastname, String major) throws SQLException {
         DBUtility.createConnection();
-        List<Map<Object, Object >> mydata = DBUtility.executeQuery("select * from student");
+        List<Map<Object, Object >> mydata = DBUtility.executeQuery("select * from student where student_id = "+addStudentPage.studentId.getText());
         DBUtility.close();
+        System.out.println(mydata.size());
+        System.out.println(mydata.get(0).get("FIRST_NAME"));
+        Assert.assertTrue("Not matching, FAILED", mydata.get(0).get("FIRST_NAME").toString().equalsIgnoreCase(firstname));
+
         for(Map <Object, Object> map: mydata) {
             System.out.println(map);
-            if (map.get("student_id").toString().equalsIgnoreCase(studentId)){
+            if (map.get("FIRST_NAME").toString().equals(firstname) && map.get("LAST_NAME").toString().equals(lastname) &&
+                    map.get("MAJOR").toString().equals(major)){
                 System.out.println("PASSED");
             }else {
                 System.out.println("FAILED");
             }
         }
-
         Driver.quitDriver();
 
     }
