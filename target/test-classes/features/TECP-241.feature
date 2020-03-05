@@ -30,6 +30,6 @@ Feature: Adding new Student with informa
     Then user gets the student "<Firstname>", "<Lastname>", "<Major>" and compares with database
 
     Examples:
-      | Firstname | Email        | Password | Subject  | Gender | Birth Date | Batch | Permanent Address | Lastname | Joining Date | Confirm Password | MobileNumber | Major  | CompanyName | StartDate  | Street       | State | Title | City        | ZipCode |
-#      | Seda      | abcxcv@gmail.com | 12345    | SQL     | Female | 05/12/1995 | 2     | 123 Main st.      | Demir    | 12/02/2020   | 12345            | 7772227272   | Master | Cybertek    | 09/03/2020 | 123 Main st. | IL    | SDET  | Chicago | 60016   |
-      | Marmara    | ddd@mail.com | 55555    | Selenium | Male   | 06/01/1991 | 11    | 232 Cicero ave.   | Kim      | 09/01/2020   | 55555            | 7778889990   | Master | Cebertek2   | 12/04/2020 | 2700 S River | IL    | QA    | Des Plaines | 60656   |
+      | Firstname | Email            | Password | Subject  | Gender | Birth Date | Batch | Permanent Address | Lastname | Joining Date | Confirm Password | MobileNumber | Major  | CompanyName | StartDate  | Street       | State | Title | City        | ZipCode |
+      | Sonya     | abcxcv@gmail.com | 12345    | SQL      | Female | 05/12/1995 | 2     | 123 Main st.      | Demir    | 12/02/2020   | 12345            | 7772227272   | Master | Cybertek    | 09/03/2020 | 123 Main st. | IL    | SDET  | Chicago     | 60016   |
+      | Mikki     | ddd@mail.com     | 55555    | Selenium | Male   | 06/01/1991 | 11    | 232 Cicero ave.   | Kim      | 09/01/2020   | 55555            | 7778889990   | Master | Cebertek2   | 12/04/2020 | 2700 S River | IL    | QA    | Des Plaines | 60656   |
