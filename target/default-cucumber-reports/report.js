@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/TECP-241.feature");
 formatter.feature({
   "name": "Adding new Student with informa",
+=======
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/removeTeacher.feature");
+formatter.feature({
+  "name": "",
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
+<<<<<<< HEAD
       "name": "@TECP-241"
     }
   ]
@@ -190,10 +197,27 @@ formatter.examples({
         "Des Plaines",
         "60656"
       ]
+=======
+      "name": "@TECP-249"
     }
   ]
 });
 formatter.scenario({
+  "name": "Verification of deleted teacher ZH",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TECP-249"
+    },
+    {
+      "name": "@TECP-238"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
+    }
+  ]
+});
+formatter.scenario({
+<<<<<<< HEAD
   "name": "Filling up Student information",
   "description": "",
   "keyword": "Scenario Outline",
@@ -232,81 +256,155 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_email_input_box(String)"
+=======
+  "name": "As a User I should able to delete teacher.",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TECP-249"
+    }
+  ]
+});
+formatter.step({
+  "name": "User is on Dashboard page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_is_on_Dashboard_page()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"12345\" in the password input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_password_input_box(String)"
+=======
+  "name": "User clicks on Teacher module",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_clicks_on_Teacher_module()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"SQL\" in the subject input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_subject_input_box(String)"
+=======
+  "name": "User clicks on All Teacher option",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_clicks_on_All_Teacher_option()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user chooses \"Female\" from the select dropdown",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_chooses_from_the_select_dropdown(String)"
+=======
+  "name": "User clicks on one teacher",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_clicks_on_one_teacher()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user chooses \"05/12/1995\" from the calendar",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_chooses_from_the_calendar(String)"
+=======
+  "name": "User takes teacher id",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_takes_teacher_id()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"2\" in the batch input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_batch_input_box(String)"
+=======
+  "name": "User check teacher is stored in the DB",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_check_teacher_is_stored_in_the_DB()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"123 Main st.\" in the permanent address input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_permanent_address_input_box(String)"
+=======
+  "name": "User go back to the teacher page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_go_back_to_the_teacher_page()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Demir\" in the lastname input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_lastname_input_box(String)"
+=======
+  "name": "User clickes on three dot",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_clickes_on_three_dot()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user chooses \"12/02/2020\" from calendar",
   "keyword": "And "
 });
@@ -332,11 +430,19 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_mobile_number_input_box(String)"
+=======
+  "name": "User clicks on delete teacher button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_clicks_on_delete_teacher_button()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Master\" in the major input box",
   "keyword": "And "
 });
@@ -478,21 +584,37 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_on_the_page(String)"
+=======
+  "name": "User should see delete verification pop up",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_should_see_delete_verification_pop_up()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"Mikki\" in the firstname input box",
   "keyword": "And "
 });
 formatter.match({
   "location": "TECP241_steps.user_types_in_the_firstname_input_box(String)"
+=======
+  "name": "User Click on delete pop up",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.user_Click_on_delete_pop_up()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
+<<<<<<< HEAD
   "name": "user types \"ddd@mail.com\" in the email input box",
   "keyword": "And "
 });
@@ -718,11 +840,21 @@ formatter.step({
 });
 formatter.match({
   "location": "TECP241_steps.user_gets_the_student_and_compares_with_database(String,String,String)"
+=======
+  "name": "teacher should be able to  deleted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RemoveTeacherSteps.teacher_should_be_able_to_deleted()"
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });
 formatter.result({
   "status": "passed"
 });
+<<<<<<< HEAD
 formatter.after({
   "status": "passed"
 });
+=======
+>>>>>>> 65bd9aa5db3564a92e845dd9d73ec70e7a7c2a0e
 });

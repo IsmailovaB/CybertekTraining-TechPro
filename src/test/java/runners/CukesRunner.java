@@ -7,13 +7,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/default-cucumber-reports",
-                "json:target/parallel-cucumber4.json"},
-        features = "src/test/resources/features/TECP-241.feature",
-        glue= "step_definitions",
+        plugin = "html:target/cucumber-reports" ,
+        features = "src/test/resources/features",
+        glue = "step_definitions",
         dryRun = false,
-        tags = "@TECP-241"
+        tags = " @TECP-251, @TECP-241, @TECP-235, @TECP-238, @TECP-231"
 )
 public class CukesRunner {
+
 
 }
