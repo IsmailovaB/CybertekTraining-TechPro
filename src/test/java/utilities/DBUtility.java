@@ -11,16 +11,18 @@ public class DBUtility {
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
-
     public static void createConnection() throws SQLException {
-        switch (Config.getProperty("dbType")) {
-
+        switch (Config.getProperty("dbType")){
             case "oracle":
-                connection = DriverManager.getConnection(Config.getProperty("dbUrl"), Config.getProperty("dbUsername"), Config.getProperty("dbPassword"));
+                connection = DriverManager.getConnection(Config.getProperty("dbUrl"),
+                        Config.getProperty("dbUsername"),
+                        Config.getProperty("dbPassword"));
                 break;
             case "mysql":
+                // create connection for mysql
                 break;
             default:
+                connection = null;
         }
     }
 
@@ -39,7 +41,9 @@ public class DBUtility {
 
             }
             data.add(map);
+
         }
+
         return data;
     }
 
