@@ -25,30 +25,32 @@ public class DBUtility {
                 connection = null;
         }
     }
+
     public static List<Map<Object, Object>> executeQuery (String query) throws SQLException {
         statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         resultSet = statement.executeQuery(query);
         ResultSetMetaData metaData = resultSet.getMetaData();
         int numberOfColumns = metaData.getColumnCount();
         List<Map<Object, Object>> data = new ArrayList<>();
+
         while(resultSet.next()){
+
             Map<Object, Object> map = new HashMap<>();
-            for(int i = 1; i <= numberOfColumns; i++ ){
+            for (int i = 1; i < numberOfColumns ; i++) {
                 map.put(metaData.getColumnName(i), resultSet.getObject(i));
+
             }
             data.add(map);
+
         }
+
         return data;
     }
-    public static void close() throws SQLException {
-        if(statement != null){
-            statement.close();
-        }
-        if(connection != null){
-            connection.close();
-        }
-        if(resultSet != null){
-            resultSet.close();
-        }
+
+    public static void close() throws SQLException{
+        connection.close();
+        statement.close();
+        resultSet.close();
     }
+
 }
