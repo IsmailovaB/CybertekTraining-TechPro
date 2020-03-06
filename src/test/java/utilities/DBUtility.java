@@ -17,7 +17,6 @@ public class DBUtility {
 
             case "oracle":
                 connection = DriverManager.getConnection(Config.getProperty("dbUrl"), Config.getProperty("dbUsername"), Config.getProperty("dbPassword"));
-
                 break;
             case "mysql":
                 break;
@@ -40,9 +39,7 @@ public class DBUtility {
 
             }
             data.add(map);
-
         }
-
         return data;
     }
 

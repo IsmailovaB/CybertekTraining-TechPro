@@ -7,19 +7,20 @@ import utilities.Config;
 import utilities.Driver;
 
 public class PreschoolMainPage {
-    public PreschoolMainPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public PreschoolMainPage() {
+        PageFactory.initElements(Driver.getDriver(), this);
     }
+
     @FindBy(xpath = "(//li[@class='submenu'])[1]")
     public WebElement teachersSideBar;
 
     @FindBy(xpath = "(//li[@class='submenu'])[2]")
     public WebElement studentSideBar;
 
-    @FindBy(xpath = "(//a[@href='all-teachers.html'])")
+    @FindBy(xpath = "(//a[@href='all-teachers.html'])[1]")
     public WebElement allTeachersButton;
 
-    @FindBy(xpath = "//a[@href='add-teacher.html']")
+    @FindBy(xpath = "(//a[@href='add-teacher.html'])[2]")
     public WebElement addTeacherButton;
 
     @FindBy(xpath = "//a[@href='all-students.html']")
@@ -28,8 +29,7 @@ public class PreschoolMainPage {
     @FindBy(xpath = "//a[@href='add-student.html']")
     public WebElement addStudentButton;
 
-
-        }
+}
 
 
 
