@@ -73,7 +73,7 @@ public class AddingTeacher_Steps {
 
                 addingTeacher_page.getList().get(j).sendKeys(sheet.getRow(i).getCell(j).toString());
             }
-//            Thread.sleep(1000);
+            Thread.sleep(1000);
           addingTeacher_page.submitButton.click();
 //            Thread.sleep(1000);
             preschoolMainPage.addTeacherButton.click();
@@ -110,13 +110,5 @@ public class AddingTeacher_Steps {
         }
 
         Assert.assertTrue("Created Teacher is Not Available in the Data Base" , check);
-
-
-
-
-
-
     }
-
-
 }

@@ -1,8 +1,6 @@
 @TECP-249
-Feature: 
+Feature:
 
-	
-	@TECP-238
 	Scenario: Verification of deleted teacher ZH 
 		Scenario: As a User I should able to delete teacher.
 		
@@ -18,3 +16,4 @@ Feature:
 		Then User should see delete verification pop up
 		And  User Click on delete pop up
 		Then teacher should be able to  deleted
+          

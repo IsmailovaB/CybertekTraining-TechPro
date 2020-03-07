@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 645467,
+              "duration": 680123,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 35,
+        "line": 34,
         "name": "Filling up Student information",
         "description": "",
         "id": "adding-new-student-with-informa;filling-up-student-information;;2",
         "after": [
           {
             "result": {
-              "duration": 79233,
+              "duration": 100950,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5478707862,
+              "duration": 5454307196,
               "status": "passed"
             },
             "line": 5,
@@ -52,15 +52,15 @@
           },
           {
             "result": {
-              "duration": 140138591,
+              "duration": 130083141,
               "status": "passed"
             },
             "line": 6,
-            "name": "user types \"Marmara\" in the firstname input box",
+            "name": "user types \"Sonya\" in the firstname input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Marmara\"",
+                  "val": "\"Sonya\"",
                   "offset": 11
                 }
               ],
@@ -70,15 +70,15 @@
           },
           {
             "result": {
-              "duration": 99173250,
+              "duration": 119897834,
               "status": "passed"
             },
             "line": 7,
-            "name": "user types \"ddd@mail.com\" in the email input box",
+            "name": "user types \"abcxcv@gmail.com\" in the email input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ddd@mail.com\"",
+                  "val": "\"abcxcv@gmail.com\"",
                   "offset": 11
                 }
               ],
@@ -88,15 +88,15 @@
           },
           {
             "result": {
-              "duration": 96118,
+              "duration": 75340,
               "status": "passed"
             },
             "line": 8,
-            "name": "user types \"55555\" in the password input box",
+            "name": "user types \"12345\" in the password input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"55555\"",
+                  "val": "\"12345\"",
                   "offset": 11
                 }
               ],
@@ -106,15 +106,15 @@
           },
           {
             "result": {
-              "duration": 64797626,
+              "duration": 54335121,
               "status": "passed"
             },
             "line": 9,
-            "name": "user types \"Selenium\" in the subject input box",
+            "name": "user types \"SQL\" in the subject input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Selenium\"",
+                  "val": "\"SQL\"",
                   "offset": 11
                 }
               ],
@@ -124,15 +124,15 @@
           },
           {
             "result": {
-              "duration": 58907001,
+              "duration": 91015701,
               "status": "passed"
             },
             "line": 10,
-            "name": "user chooses \"Male\" from the select dropdown",
+            "name": "user chooses \"Female\" from the select dropdown",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Male\"",
+                  "val": "\"Female\"",
                   "offset": 13
                 }
               ],
@@ -142,15 +142,15 @@
           },
           {
             "result": {
-              "duration": 123664717,
+              "duration": 115616475,
               "status": "passed"
             },
             "line": 11,
-            "name": "user chooses \"06/01/1991\" from the calendar",
+            "name": "user chooses \"05/12/1995\" from the calendar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"06/01/1991\"",
+                  "val": "\"05/12/1995\"",
                   "offset": 13
                 }
               ],
@@ -160,15 +160,15 @@
           },
           {
             "result": {
-              "duration": 73815778,
+              "duration": 73606585,
               "status": "passed"
             },
             "line": 12,
-            "name": "user types \"11\" in the batch input box",
+            "name": "user types \"2\" in the batch input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"11\"",
+                  "val": "\"2\"",
                   "offset": 11
                 }
               ],
@@ -178,15 +178,15 @@
           },
           {
             "result": {
-              "duration": 114369654,
+              "duration": 125121669,
               "status": "passed"
             },
             "line": 13,
-            "name": "user types \"232 Cicero ave.\" in the permanent address input box",
+            "name": "user types \"123 Main st.\" in the permanent address input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"232 Cicero ave.\"",
+                  "val": "\"123 Main st.\"",
                   "offset": 11
                 }
               ],
@@ -196,15 +196,15 @@
           },
           {
             "result": {
-              "duration": 63451573,
+              "duration": 86512443,
               "status": "passed"
             },
             "line": 14,
-            "name": "user types \"Kim\" in the lastname input box",
+            "name": "user types \"Demir\" in the lastname input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Kim\"",
+                  "val": "\"Demir\"",
                   "offset": 11
                 }
               ],
@@ -214,15 +214,15 @@
           },
           {
             "result": {
-              "duration": 119987086,
+              "duration": 98075058,
               "status": "passed"
             },
             "line": 15,
-            "name": "user chooses \"09/01/2020\" from calendar",
+            "name": "user chooses \"12/02/2020\" from calendar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"09/01/2020\"",
+                  "val": "\"12/02/2020\"",
                   "offset": 13
                 }
               ],
@@ -232,15 +232,15 @@
           },
           {
             "result": {
-              "duration": 72715,
+              "duration": 60431,
               "status": "passed"
             },
             "line": 16,
-            "name": "user types \"55555\" to confirm the password",
+            "name": "user types \"12345\" to confirm the password",
             "match": {
               "arguments": [
                 {
-                  "val": "\"55555\"",
+                  "val": "\"12345\"",
                   "offset": 11
                 }
               ],
@@ -250,15 +250,15 @@
           },
           {
             "result": {
-              "duration": 102713562,
+              "duration": 102878413,
               "status": "passed"
             },
             "line": 17,
-            "name": "user types \"7778889990\" in the mobile number input box",
+            "name": "user types \"7772227272\" in the mobile number input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"7778889990\"",
+                  "val": "\"7772227272\"",
                   "offset": 11
                 }
               ],
@@ -268,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 61755082,
+              "duration": 58516415,
               "status": "passed"
             },
             "line": 18,
@@ -286,15 +286,15 @@
           },
           {
             "result": {
-              "duration": 72233818,
+              "duration": 68218082,
               "status": "passed"
             },
             "line": 20,
-            "name": "user types \"Cebertek2\" in the company name input box",
+            "name": "user types \"Cybertek\" in the company name input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Cebertek2\"",
+                  "val": "\"Cybertek\"",
                   "offset": 11
                 }
               ],
@@ -304,15 +304,15 @@
           },
           {
             "result": {
-              "duration": 84781162,
+              "duration": 88102991,
               "status": "passed"
             },
             "line": 21,
-            "name": "user choose \"12/04/2020\" from calendar",
+            "name": "user choose \"09/03/2020\" from calendar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"12/04/2020\"",
+                  "val": "\"09/03/2020\"",
                   "offset": 12
                 }
               ],
@@ -322,15 +322,15 @@
           },
           {
             "result": {
-              "duration": 99087192,
+              "duration": 98128221,
               "status": "passed"
             },
             "line": 22,
-            "name": "user types \"2700 S River\" in the street name input box",
+            "name": "user types \"123 Main st.\" in the street name input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"2700 S River\"",
+                  "val": "\"123 Main st.\"",
                   "offset": 11
                 }
               ],
@@ -340,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 42084097,
+              "duration": 41200009,
               "status": "passed"
             },
             "line": 23,
@@ -358,15 +358,15 @@
           },
           {
             "result": {
-              "duration": 44413204,
+              "duration": 46136019,
               "status": "passed"
             },
             "line": 24,
-            "name": "user types \"QA\" in the title input box",
+            "name": "user types \"SDET\" in the title input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"QA\"",
+                  "val": "\"SDET\"",
                   "offset": 11
                 }
               ],
@@ -376,15 +376,15 @@
           },
           {
             "result": {
-              "duration": 77302921,
+              "duration": 64924744,
               "status": "passed"
             },
             "line": 25,
-            "name": "user types \"Des Plaines\" in the city input box",
+            "name": "user types \"Chicago\" in the city input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Des Plaines\"",
+                  "val": "\"Chicago\"",
                   "offset": 11
                 }
               ],
@@ -394,15 +394,15 @@
           },
           {
             "result": {
-              "duration": 49851571,
+              "duration": 52309711,
               "status": "passed"
             },
             "line": 26,
-            "name": "user types \"60656\" in the zipcode input box",
+            "name": "user types \"60016\" in the zipcode input box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"60656\"",
+                  "val": "\"60016\"",
                   "offset": 11
                 }
               ],
@@ -412,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 59290039,
+              "duration": 59966946,
               "status": "passed"
             },
             "line": 27,
@@ -424,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 310655722,
+              "duration": 325444942,
               "status": "passed"
             },
             "line": 28,
@@ -442,15 +442,15 @@
           },
           {
             "result": {
-              "duration": 691508511,
+              "duration": 672859415,
               "status": "passed"
             },
             "line": 29,
-            "name": "user searches the name of the created \"Marmara\"",
+            "name": "user searches the name of the created \"Sonya\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Marmara\"",
+                  "val": "\"Sonya\"",
                   "offset": 38
                 }
               ],
@@ -460,24 +460,513 @@
           },
           {
             "result": {
-              "duration": 862298721,
+              "duration": 1141831768,
               "status": "passed"
             },
             "line": 30,
-            "name": "user gets the student \"Marmara\", \"Kim\", \"Master\" and compares with database",
+            "name": "user gets the student \"Sonya\", \"Demir\", \"Master\" and compares with database",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Marmara\"",
+                  "val": "\"Sonya\"",
                   "offset": 22
                 },
                 {
-                  "val": "\"Kim\"",
-                  "offset": 33
+                  "val": "\"Demir\"",
+                  "offset": 31
                 },
                 {
                   "val": "\"Master\"",
                   "offset": 40
+                }
+              ],
+              "location": "TECP241_steps.user_gets_the_student_and_compares_with_database(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TECP-241"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 66521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Filling up Student information",
+        "description": "",
+        "id": "adding-new-student-with-informa;filling-up-student-information;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 38980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4842663413,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on the \"ADD STUDENT\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADD STUDENT\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TECP241_steps.user_on_the_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135333561,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user types \"Mikki\" in the firstname input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mikki\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_firstname_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98728950,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user types \"ddd@mail.com\" in the email input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ddd@mail.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_email_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45996,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types \"55555\" in the password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55555\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_password_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69107130,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user types \"Selenium\" in the subject input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_subject_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46503659,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user chooses \"Male\" from the select dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 13
+                }
+              ],
+              "location": "TECP241_steps.user_chooses_from_the_select_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102881956,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user chooses \"06/01/1991\" from the calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"06/01/1991\"",
+                  "offset": 13
+                }
+              ],
+              "location": "TECP241_steps.user_chooses_from_the_calendar(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84214552,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types \"11\" in the batch input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_batch_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126185877,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user types \"232 Cicero ave.\" in the permanent address input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"232 Cicero ave.\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_permanent_address_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74403418,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user types \"Kim\" in the lastname input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kim\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_lastname_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122126295,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user chooses \"09/01/2020\" from calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/01/2020\"",
+                  "offset": 13
+                }
+              ],
+              "location": "TECP241_steps.user_chooses_from_calendar(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83054,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user types \"55555\" to confirm the password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55555\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_to_confirm_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84625186,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user types \"7778889990\" in the mobile number input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7778889990\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_mobile_number_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56845189,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user types \"Master\" in the major input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Master\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_major_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69418692,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user types \"Cebertek2\" in the company name input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cebertek2\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_company_name_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85939046,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user choose \"12/04/2020\" from calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12/04/2020\"",
+                  "offset": 12
+                }
+              ],
+              "location": "TECP241_steps.user_choose_from_calendar(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94783478,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user types \"2700 S River\" in the street name input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2700 S River\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_street_name_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43438483,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user types \"IL\" in the state input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IL\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_state_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42748346,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user types \"QA\" in the title input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_title_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74393590,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user types \"Des Plaines\" in the city input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_city_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49862704,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user types \"60656\" in the zipcode input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"60656\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TECP241_steps.user_types_in_the_zipcode_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64176560,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks sumbit button",
+            "match": {
+              "location": "TECP241_steps.user_clicks_sumbit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303186833,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user sees created student on the \"All Students\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Students\"",
+                  "offset": 33
+                }
+              ],
+              "location": "TECP241_steps.user_sees_created_student_on_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696846840,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user searches the name of the created \"Mikki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mikki\"",
+                  "offset": 38
+                }
+              ],
+              "location": "TECP241_steps.user_searches_the_name_of_the_created(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 479285966,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user gets the student \"Mikki\", \"Kim\", \"Master\" and compares with database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mikki\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Kim\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Master\"",
+                  "offset": 38
                 }
               ],
               "location": "TECP241_steps.user_gets_the_student_and_compares_with_database(String,String,String)"
