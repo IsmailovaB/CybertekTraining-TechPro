@@ -1,8 +1,6 @@
-#@TECP-249
-Feature: 
+@TECP-249
+Feature:
 
-	
-	@TECP-238
 	Scenario: Verification of deleted teacher ZH 
 		Scenario: As a User I should able to delete teacher.
 		

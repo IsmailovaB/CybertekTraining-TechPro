@@ -1,4 +1,4 @@
-@Arif
+@TECP-239
 Feature: Updating teacher's information
 	Scenario Outline: Verifiying synchronization of database and UI
 

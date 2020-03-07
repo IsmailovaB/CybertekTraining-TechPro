@@ -21,7 +21,8 @@ public class Tecp229 {
     StudentEdit studentEdit = new StudentEdit();
 
     @Given("User on Preschool main page login as Student")
-    public void user_on_Preschool_main_page_login_as_Student() {
+    public void user_on_Preschool_main_page_login_as_Student()
+    {
         Driver.getDriver().get(Config.getProperty("url"));
     }
 

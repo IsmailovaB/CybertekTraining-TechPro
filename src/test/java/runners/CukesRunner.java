@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "step_definitions",
         dryRun = false,
-        tags = " @TECP-251, @TECP-241, @TECP-235, @TECP-238, @TECP-231"
+        tags = " @TECP-235, @TECP-239, @TECP-249, @TECP-241, @TECP-251, @TECP-231"
 )
 public class CukesRunner {
 
