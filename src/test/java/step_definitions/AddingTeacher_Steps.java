@@ -68,14 +68,15 @@ public class AddingTeacher_Steps {
         int usedRows = sheet.getPhysicalNumberOfRows();
         int lastUsedRow = sheet.getLastRowNum();
 
-        for (int i = 1; i < 20; i++) {
+        for (int i = 1; i < 3; i++) {
             for (int j = 0; j<10; j++) {
 
                 addingTeacher_page.getList().get(j).sendKeys(sheet.getRow(i).getCell(j).toString());
+                Thread.sleep(1000);
             }
             Thread.sleep(1000);
           addingTeacher_page.submitButton.click();
-//            Thread.sleep(1000);
+            Thread.sleep(1000);
             preschoolMainPage.addTeacherButton.click();
         }
 
