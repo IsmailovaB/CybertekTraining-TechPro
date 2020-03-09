@@ -27,18 +27,20 @@ public class Tecp229 {
     }
 
     @Given("User goes to Student module and press All Students")
-    public void user_goes_to_Student_module_and_press_All_Students() {
+    public void user_goes_to_Student_module_and_press_All_Students() throws InterruptedException {
         preschoolMainPage.studentSideBar.click();
         preschoolMainPage.allStudentsButton.click();
         preschoolMainPage.firstStudent.click();
-
+        Thread.sleep(1000);
         TempStorage.addData("first",preschoolMainPage.studentID.getText());
         Driver.getDriver().navigate().back();
     }
 
     @Given("User choose Student from the datatable and click on it")
-    public void user_choose_Student_from_the_datatable_and_click_on_it() {
-     preschoolMainPage.studentEditDots.click();
+    public void user_choose_Student_from_the_datatable_and_click_on_it() throws InterruptedException {
+     Thread.sleep(2000);
+        preschoolMainPage.studentEditDots.click();
+     Thread.sleep(1000);
      preschoolMainPage.studentEdit.click();
     }
 
@@ -63,7 +65,7 @@ actions.moveToElement(studentEdit.submitStudent).click().perform();
 
     @Given("User find udated student in the table")
     public void user_find_udated_student_in_the_table() {
-preschoolMainPage.searchID.sendKeys(TempStorage.getData("first"));
+        preschoolMainPage.searchID.sendKeys(TempStorage.getData("first"));
         preschoolMainPage.searchButton.click();
         preschoolMainPage.firstStudent.click();
     }

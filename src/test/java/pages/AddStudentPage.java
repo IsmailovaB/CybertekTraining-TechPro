@@ -12,7 +12,7 @@ public class AddStudentPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//h5[.='Add Student']")
+    @FindBy(xpath = "//div[@class='col-lg-7 col-md-12 col-sm-12 col-12']/h5")
     public WebElement addStudentTextDisplay;
 
     @FindBy(xpath = "(//div[@id='app']//input[@type='text'])[1]")
