@@ -9,4 +9,5 @@ Feature: Verification UI and Data Base for deleted student
 		And User navigate.back
 		Then User deletes the student
 	    Then The information should be deleted from data
+		Then Check UI if it is deleted
 		 
