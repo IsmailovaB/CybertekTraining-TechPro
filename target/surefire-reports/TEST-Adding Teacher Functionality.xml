@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Adding Teacher Functionality" time="38.751" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="/Users/begimai/.m2/repository/webdriver/chromedriver/mac64/80.0.3987.106/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/begimai/Desktop/CybertekTraining-TechPro/target/test-classes:/Users/begimai/Desktop/CybertekTraining-TechPro/target/classes:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/begimai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/begimai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/begimai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/begimai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/begimai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/begimai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/begimai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/begimai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/begimai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/begimai/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/begimai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/begimai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/begimai/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/begimai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/begimai/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/begimai/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/begimai/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/begimai/.m2/repository/com/github/javafaker/javafaker/1.0.1/javafaker-1.0.1.jar:/Users/begimai/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/begimai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/begimai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-java/4.2.0/cucumber-java-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/begimai/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/begimai/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/datatable/1.1.7/datatable-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/datatable-dependencies/1.1.7/datatable-dependencies-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar:/Users/begimai/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/begimai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/begimai/.m2/repository/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/begimai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/begimai/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/begimai/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/begimai/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/begimai/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/begimai/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/begimai/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/begimai/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/begimai/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="org.apache.logging.log4j.assignedSequences" value="9614"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/begimai/Desktop/CybertekTraining-TechPro/target/surefire/surefirebooter2462280362320484142.jar /Users/begimai/Desktop/CybertekTraining-TechPro/target/surefire 2020-03-09T18-10-23_299-jvmRun2 surefire4689090199342325047tmp surefire_012861382624675722935tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/begimai/Desktop/CybertekTraining-TechPro/target/test-classes:/Users/begimai/Desktop/CybertekTraining-TechPro/target/classes:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/begimai/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/begimai/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/begimai/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/begimai/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/begimai/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/begimai/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/begimai/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/begimai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/begimai/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/begimai/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/begimai/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/begimai/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/begimai/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/begimai/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/begimai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/begimai/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/begimai/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/begimai/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/begimai/.m2/repository/com/github/javafaker/javafaker/1.0.1/javafaker-1.0.1.jar:/Users/begimai/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/begimai/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/begimai/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-java/4.2.0/cucumber-java-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-core/4.2.0/cucumber-core-4.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/begimai/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/begimai/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/Users/begimai/.m2/repository/io/cucumber/datatable/1.1.7/datatable-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/datatable-dependencies/1.1.7/datatable-dependencies-1.1.7.jar:/Users/begimai/.m2/repository/io/cucumber/cucumber-junit/4.2.0/cucumber-junit-4.2.0.jar:/Users/begimai/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/begimai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/begimai/.m2/repository/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/begimai/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/begimai/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/begimai/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/begimai/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/begimai/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/begimai/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/begimai/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/begimai/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/begimai/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/begimai/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/begimai/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/begimai/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/begimai/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/begimai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/begimai/Desktop/CybertekTraining-TechPro"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/begimai/Desktop/CybertekTraining-TechPro/target/surefire/surefirebooter2462280362320484142.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="begimai"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/begimai/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dq/0bybqq_j3g760mgj75xlmlqm0000gn/T/"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="/Users/begimai/Desktop/CybertekTraining-TechPro"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/begimai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Adding teacher" classname="Adding Teacher Functionality" time="49.079">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;btn btn-success btn-block mt-4 mb-2&apos;])&quot;}&#10;  (Session info: chrome=80.0.3987.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1c63:561a:661d:33c1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:62006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d3c097f8f3762cc32492343e53abe099&#10;*** Element info: {Using=xpath, value=(//a[@class=&apos;btn btn-success btn-block mt-4 mb-2&apos;])}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='btn btn-success btn-block mt-4 mb-2'])"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:1c63:561a:661d:33c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:62006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3c097f8f3762cc32492343e53abe099
+*** Element info: {Using=xpath, value=(//a[@class='btn btn-success btn-block mt-4 mb-2'])}
+</error>
+    <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 18795
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 09, 2020 6:10:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1583795427.410][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795427.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795427.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795427.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795427.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795427.918][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.020][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.122][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.429][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.531][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.633][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.734][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.836][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795428.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.040][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.143][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.244][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.447][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.752][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795429.936][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.102][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.204][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.509][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.611][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.713][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795430.915][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.321][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795431.929][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.032][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.134][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.236][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.337][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.438][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.538][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.639][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.743][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.844][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795432.969][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.072][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.276][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.479][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.582][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.683][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795433.989][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.091][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.193][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.295][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.396][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.498][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.704][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795434.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.010][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.111][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.416][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.518][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.721][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795435.924][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.025][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.126][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.229][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.330][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.432][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.637][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.740][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.842][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795436.944][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795439.546][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795439.648][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795439.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795441.260][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795441.363][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795441.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795441.567][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+    <rerunError message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;btn btn-success btn-block mt-4 mb-2&apos;])&quot;}&#10;  (Session info: chrome=80.0.3987.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Begimais-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1c63:561a:661d:33c1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:62584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4b8de1563e185700647e3dbe41cae4bf&#10;*** Element info: {Using=xpath, value=(//a[@class=&apos;btn btn-success btn-block mt-4 mb-2&apos;])}" type="org.openqa.selenium.NoSuchElementException">
+      <stackTrace>org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='btn btn-success btn-block mt-4 mb-2'])"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:1c63:561a:661d:33c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:62584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b8de1563e185700647e3dbe41cae4bf
+*** Element info: {Using=xpath, value=(//a[@class='btn btn-success btn-block mt-4 mb-2'])}
+</stackTrace>
+      <system-out><![CDATA[WARNING: Found tags option ' @TECP-235, @TECP-239, @TECP-249'. Support for '@tag1,@tag2' will be removed from the next release of Cucumber-JVM. Please use '@tag or @tag2' instead
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31msrc/test/resources/features/AddingTeacher.feature:6 &amp#27;[0m# Adding teacher
+
+1 Scenarios (&amp#27;[31m1 failed&amp#27;[0m)
+6 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[32m5 passed&amp#27;[0m)
+0m38.788s
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='btn btn-success btn-block mt-4 mb-2'])"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Begimais-MacBook-Pro.local', ip: 'fe80:0:0:0:1c63:561a:661d:33c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/dq/0bybqq_j3g7...}, goog:chromeOptions: {debuggerAddress: localhost:62584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b8de1563e185700647e3dbe41cae4bf
+*** Element info: {Using=xpath, value=(//a[@class='btn btn-success btn-block mt-4 mb-2'])}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at step_definitions.AddingTeacher_Steps.user_should_verify_that_the_created_teacher_exists_on_the_database(AddingTeacher_Steps.java:94)
+	at ✽.User should verify that the created teacher exists on the database(src/test/resources/features/AddingTeacher.feature:12)
+
+]]></system-out>
+      <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 37045
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 09, 2020 6:11:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1583795514.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795514.577][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795514.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795514.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795514.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795514.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.188][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.289][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.847][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795515.949][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.051][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.153][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.357][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.459][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.562][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.665][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.767][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.870][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795516.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795517.075][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795517.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795517.343][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795517.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795517.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583795521.218][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+    </rerunError>
+  </testcase>
+</testsuite>

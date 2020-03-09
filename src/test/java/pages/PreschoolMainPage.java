@@ -28,7 +28,7 @@ public class PreschoolMainPage {
     @FindBy(xpath = "//a[@href='add-student.html']")
     public WebElement addStudentButton;
 
-    @FindBy(xpath = "//div[@class='row staff-grid-row']//div//div//div[2]")
+    @FindBy(xpath = "(//a[@class='action-icon dropdown-toggle'])[1]/i")
     public WebElement studentEditDots;
 
     @FindBy(xpath = "(//div[@class='dropdown-menu dropdown-menu-right show']//a)[1]")

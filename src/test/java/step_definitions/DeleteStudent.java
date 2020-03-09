@@ -19,7 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-public class Delete_Student_Step_Defs {
+public class DeleteStudent {
 
     Delete_Student_Page deleteStudentObject = new Delete_Student_Page();
     PreschoolMainPage preschoolMainPage = new PreschoolMainPage();

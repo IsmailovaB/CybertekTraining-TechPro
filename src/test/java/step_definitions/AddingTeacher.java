@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AddingTeacher_Page;
 import pages.PreschoolMainPage;
 import utilities.Config;
@@ -24,11 +25,11 @@ import java.security.Key;
 import java.util.List;
 import java.util.Map;
 
-public class AddingTeacher_Steps {
+public class AddingTeacher {
 
     AddingTeacher_Page addingTeacher_page = new AddingTeacher_Page();
     PreschoolMainPage preschoolMainPage = new PreschoolMainPage();
-
+//    WebDriverWait wait = new WebDriverWait(Driver.getDriver())
     public static String teacherId;
 
 
