@@ -32,9 +32,10 @@ public class TECP241_steps {
         mainPage.studentSideBar.click();
 //        Thread.sleep(2000);
         mainPage.addStudentButton.click();
+        Thread.sleep(2000);
         String actualText = addStudentPage.addStudentTextDisplay.getText();
         Assert.assertTrue(actualText.equalsIgnoreCase(addStudentText));
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @Given("user types {string} in the firstname input box")
@@ -154,9 +155,10 @@ public class TECP241_steps {
 //    String studentId = addStudentPage.studentId.getText();
 
     @Given("user searches the name of the created {string}")
-    public void user_searches_the_name_of_the_created(String firstName) {
+    public void user_searches_the_name_of_the_created(String firstName) throws InterruptedException {
        addStudentPage.studentNameSearchBox.sendKeys(firstName);
        addStudentPage.searchButton.click();
+       Thread.sleep(1000);
        WebElement actualres = Driver.getDriver().findElement(By.xpath("//a[.='"+firstName+"']"));
        Assert.assertTrue(actualres.getText().equals(firstName));
         actualres.click();

@@ -31,13 +31,13 @@ public class PreschoolMainPage {
     @FindBy(xpath = "//div[@class='row staff-grid-row']//div//div//div[2]")
     public WebElement studentEditDots;
 
-    @FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a")
+    @FindBy(xpath = "(//div[@class='dropdown-menu dropdown-menu-right show']//a)[1]")
     public WebElement studentEdit;
 
     @FindBy(xpath = "(//div[@class='profile-widget'])//div//a")
     public WebElement firstStudent;
 
-    @FindBy(xpath = "//span[.='Student ID:']/following-sibling::span")
+    @FindBy(xpath = "(//span[@class='text'])[1]/a")
     public WebElement studentID;
 
     @FindBy(xpath = "//*[.='Student ID']/preceding-sibling::input")

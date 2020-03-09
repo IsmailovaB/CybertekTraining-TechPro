@@ -104,7 +104,7 @@
                         <include>**/*Runner.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
-                    <!--                    <rerunFailingTestsCount>1</rerunFailingTestsCount>-->
+                    <rerunFailingTestsCount>1</rerunFailingTestsCount>
                 </configuration>
             </plugin>
             <plugin>
