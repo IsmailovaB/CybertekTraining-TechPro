@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class Delete_Student_Page {
     public Delete_Student_Page() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -22,4 +24,7 @@ public class Delete_Student_Page {
     public WebElement deleteFunction;
     @FindBy(xpath = "//html//body//div//div//div//div//form//div//div//button")
     public WebElement deleteButton;
+    @FindBy(xpath = "(//i[@class='fa fa-bars'])[2]")
+    public WebElement tableStyle;
+
 }
