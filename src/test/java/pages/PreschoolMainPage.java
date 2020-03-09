@@ -31,7 +31,7 @@ public class PreschoolMainPage {
     @FindBy(xpath = "//div[@class='row staff-grid-row']//div//div//div[2]")
     public WebElement studentEditDots;
 
-    @FindBy(xpath = "//div[@class='dropdown-menu dropdown-menu-right show']//a")
+    @FindBy(xpath = "(//div[@class='dropdown-menu dropdown-menu-right show']//a)[1]")
     public WebElement studentEdit;
 
     @FindBy(xpath = "(//div[@class='profile-widget'])//div//a")
