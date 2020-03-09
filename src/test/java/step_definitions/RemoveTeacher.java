@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
 
-public class RemoveTeacherSteps {
+public class RemoveTeacher {
     PreschoolMainPage preschoolMainPage = new PreschoolMainPage();
     RemoveTeacherPage removeTeacherPage = new RemoveTeacherPage();
     public static String teacherID ;

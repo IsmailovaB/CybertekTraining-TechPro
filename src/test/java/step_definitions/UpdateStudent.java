@@ -16,7 +16,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-public class Tecp229 {
+public class UpdateStudent {
     PreschoolMainPage preschoolMainPage = new PreschoolMainPage();
     StudentEdit studentEdit = new StudentEdit();
 
@@ -31,29 +31,29 @@ public class Tecp229 {
         preschoolMainPage.studentSideBar.click();
         preschoolMainPage.allStudentsButton.click();
         preschoolMainPage.firstStudent.click();
-        Thread.sleep(1000);
-        TempStorage.addData("first",preschoolMainPage.studentID.getText());
+        Thread.sleep(2000);
+        TempStorage.addData("first", preschoolMainPage.studentID.getText());
         Driver.getDriver().navigate().back();
     }
 
     @Given("User choose Student from the datatable and click on it")
     public void user_choose_Student_from_the_datatable_and_click_on_it() throws InterruptedException {
-     Thread.sleep(2000);
+     Thread.sleep(1000);
         preschoolMainPage.studentEditDots.click();
      Thread.sleep(1000);
      preschoolMainPage.studentEdit.click();
     }
 
     @Given("User changes {string} of the student")
-    public void user_changes_of_the_student(String email) {
+    public void user_changes_of_the_student(String firstname) {
     studentEdit.studentFirstName.clear();
-    studentEdit.studentFirstName.sendKeys(email);
+    studentEdit.studentFirstName.sendKeys(firstname);
     }
 
     @Given("User changes value of {string} of the student")
-    public void user_changes_value_of_of_the_student(String string) {
+    public void user_changes_value_of_of_the_student(String lastname) {
         studentEdit.studentLastName.clear();
-        studentEdit.studentLastName.sendKeys(string);
+        studentEdit.studentLastName.sendKeys(lastname);
     }
 
     @Given("User click submit button")
@@ -64,9 +64,10 @@ actions.moveToElement(studentEdit.submitStudent).click().perform();
     }
 
     @Given("User find udated student in the table")
-    public void user_find_udated_student_in_the_table() {
+    public void user_find_udated_student_in_the_table() throws InterruptedException {
         preschoolMainPage.searchID.sendKeys(TempStorage.getData("first"));
         preschoolMainPage.searchButton.click();
+        Thread.sleep(1000);
         preschoolMainPage.firstStudent.click();
     }
 

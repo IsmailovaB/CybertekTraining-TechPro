@@ -19,7 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-public class UpdatingTeacherInformation_StepDefs {
+public class UpdateTeacher {
 
     PreschoolMainPage preschoolMainPage = new PreschoolMainPage();
     TeachersPage teachersPage = new TeachersPage();
@@ -106,8 +106,6 @@ public class UpdatingTeacherInformation_StepDefs {
         DBUtility.createConnection();
         System.out.println((DBUtility.executeQuery("select * from teacher where teacher_id = " + TemporaryStrorage.getData("id") )));
        Assert.assertEquals("They are not equal. Verification of email address changes FAILED!!!",((DBUtility.executeQuery("select * from teacher where teacher_id = " + TemporaryStrorage.getData("id") )).get(0).get("EMAIL_ADDRESS")), emailAddress);
-
-
 
     }
 

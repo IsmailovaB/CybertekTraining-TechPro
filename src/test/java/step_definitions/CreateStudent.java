@@ -20,7 +20,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-public class TECP241_steps {
+public class CreateStudent {
 
     PreschoolMainPage mainPage = new PreschoolMainPage();
     AddStudentPage addStudentPage = new AddStudentPage();

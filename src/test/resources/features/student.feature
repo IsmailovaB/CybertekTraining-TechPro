@@ -14,5 +14,5 @@ Feature:Check update functionality wit Database
     Then Verify last name from database matches "<ExpectedLastName>"
     Examples:
       | FirstName | LastName   | ExpectedFirstName | ExpectedLastName |
-      | Patel     | FromIndia  | Patel             | FromIndia        |
-#      | Jose      | FromMexico | Jose              | FromMexico       |
+#       |Patel     | FromIndia  | Patel             | FromIndia        |
+      | Jose      | FromMexico | Jose              | FromMexico       |
