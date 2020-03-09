@@ -2,7 +2,7 @@
 Feature: Adding new Student with informa
 
   Scenario Outline: Filling up Student information
-    Given User on the "ADD STUDENT" page
+    Given User on the "Add Student" page
     And user types "<Firstname>" in the firstname input box
     And user types "<Email>" in the email input box
     And user types "<Password>" in the password input box
@@ -32,4 +32,4 @@ Feature: Adding new Student with informa
     Examples:
       | Firstname | Email            | Password | Subject  | Gender | Birth Date | Batch | Permanent Address | Lastname | Joining Date | Confirm Password | MobileNumber | Major  | CompanyName | StartDate  | Street       | State | Title | City        | ZipCode |
       | Sonya     | abcxcv@gmail.com | 12345    | SQL      | Female | 05/12/1995 | 2     | 123 Main st.      | Demir    | 12/02/2020   | 12345            | 7772227272   | Master | Cybertek    | 09/03/2020 | 123 Main st. | IL    | SDET  | Chicago     | 60016   |
-      | Mikki     | ddd@mail.com     | 55555    | Selenium | Male   | 06/01/1991 | 11    | 232 Cicero ave.   | Kim      | 09/01/2020   | 55555            | 7778889990   | Master | Cebertek2   | 12/04/2020 | 2700 S River | IL    | QA    | Des Plaines | 60656   |
+#      | Mikki     | ddd@mail.com     | 55555    | Selenium | Male   | 06/01/1991 | 11    | 232 Cicero ave.   | Kim      | 09/01/2020   | 55555            | 7778889990   | Master | Cebertek2   | 12/04/2020 | 2700 S River | IL    | QA    | Des Plaines | 60656   |

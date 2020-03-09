@@ -76,7 +76,7 @@ public class RemoveTeacherSteps {
             else{
                 check = false;
             }
-            System.out.println(map.get("TEACHER_ID"));
+//            System.out.println(map.get("TEACHER_ID"));
         }
         if(check==true){
             System.out.println(teacherID+ " ID teacher is in Data Base");
@@ -143,7 +143,7 @@ public class RemoveTeacherSteps {
             else{
                 check = false;
             }
-            System.out.println(map.get("TEACHER_ID"));
+//            System.out.println(map.get("TEACHER_ID"));
         }
 //        if(check!=true){
 //            System.out.println(teacherID+ " ID teacher is not in Data Base");

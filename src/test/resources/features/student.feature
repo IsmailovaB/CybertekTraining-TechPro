@@ -15,4 +15,4 @@ Feature:Check update functionality wit Database
     Examples:
       | FirstName | LastName   | ExpectedFirstName | ExpectedLastName |
       | Patel     | FromIndia  | Patel             | FromIndia        |
-      | Jose      | FromMexico | Jose              | FromMexico       |
+#      | Jose      | FromMexico | Jose              | FromMexico       |

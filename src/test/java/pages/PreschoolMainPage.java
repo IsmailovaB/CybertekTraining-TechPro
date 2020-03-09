@@ -37,7 +37,7 @@ public class PreschoolMainPage {
     @FindBy(xpath = "(//div[@class='profile-widget'])//div//a")
     public WebElement firstStudent;
 
-    @FindBy(xpath = "//span[.='Student ID:']/following-sibling::span")
+    @FindBy(xpath = "(//span[@class='text'])[1]/a")
     public WebElement studentID;
 
     @FindBy(xpath = "//*[.='Student ID']/preceding-sibling::input")

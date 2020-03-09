@@ -21,7 +21,7 @@ Feature: Updating teacher's information
 		
 		|email address|mobile number|present address               |
 		|abc@gmail.com|3125202020   |1705 forest cove drive apt520 |
-		|ZYX@gmail.com|3125201010   |1706 forest cove drive apt520 |
-		|ABX@gmail.com|3125201010   |1707 forest cove drive apt520 |
-		
-		
+#		|ZYX@gmail.com|3125201010   |1706 forest cove drive apt520 |
+#		|ABX@gmail.com|3125201010   |1707 forest cove drive apt520 |
+#
+#

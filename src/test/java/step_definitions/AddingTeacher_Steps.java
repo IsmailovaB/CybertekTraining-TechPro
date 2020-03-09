@@ -39,19 +39,19 @@ public class AddingTeacher_Steps {
 
     @When("User will click on the Teachers option from the side bar")
     public void user_will_click_on_the_Teachers_option_from_the_side_bar() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         preschoolMainPage.teachersSideBar.click();
     }
 
     @When("User will choose the All Teacher option from the side bar")
     public void user_will_choose_the_All_Teacher_option_from_the_side_bar() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         preschoolMainPage.allTeachersButton.click();
     }
 
     @When("User will click on the Add Teacher")
     public void user_will_click_on_the_Add_Teacher() throws InterruptedException{
-        Thread.sleep(2000);
+        Thread.sleep(1000);
        preschoolMainPage.addTeacherButton.click();
     }
 
@@ -68,7 +68,7 @@ public class AddingTeacher_Steps {
         int usedRows = sheet.getPhysicalNumberOfRows();
         int lastUsedRow = sheet.getLastRowNum();
 
-        for (int i = 1; i < 3; i++) {
+        for (int i = 1; i < 2; i++) {
             for (int j = 0; j<10; j++) {
 
                 addingTeacher_page.getList().get(j).sendKeys(sheet.getRow(i).getCell(j).toString());
@@ -86,7 +86,7 @@ public class AddingTeacher_Steps {
     @Then("User should verify that the created teacher exists on the database")
     public void user_should_verify_that_the_created_teacher_exists_on_the_database() throws Exception {
 
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         preschoolMainPage.allTeachersButton.click();
         addingTeacher_page.teacherNameSearch.sendKeys("Elizabeth");
         Thread.sleep(1000);
